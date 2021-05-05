@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GraficasModule } from './graficas/graficas.module';
 import { MenuComponent } from './shared/menu/menu.component';
+import {HttpClientModule} from '@angular/common/http'
 
 
 
@@ -16,6 +17,7 @@ import { MenuComponent } from './shared/menu/menu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
